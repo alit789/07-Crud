@@ -1,0 +1,90 @@
+:root {
+  --black: #252525;
+  --whiteBG: #f1f6fd;
+  --white: #fff;
+  --green: #1fb560;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#App {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(31,157,72);
+  background: linear-gradient(90deg, rgba(31,157,72,1) 0%, rgba(49,121,73,1) 100%);
+  box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+-webkit-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+-moz-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+}
+
+#marginContainer{
+  padding: 129px 0;
+}
+
+#kotakContainer {
+  width: 100%;
+  height:fit-content;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.title > h3 {
+  font-weight: 700;
+  color: var(--green);
+}
+
+.inputNama > input {
+  width: 35%;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 15px;
+  outline: none;
+  color: var(--green);
+  padding: 10px 10px;
+  border: 1px solid var(--green);
+}
+
+.inputNama > label {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.inputNama > button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: rgb(31,157,72);
+  background: linear-gradient(90deg, rgba(31,157,72,1) 0%, rgba(49,121,73,1) 100%);
+  box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+-webkit-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+-moz-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+  color: var(--white);
+  border: none;
+  margin-top: 1rem;
+}
+
+.inputNama > button:hover {
+  background-color:#198e4c;
+  color: var(--white);
+}
+
+th {
+  padding: 0 100px;
+  font-weight: 500;
+}
+
+td > button{
+  background-color: var(--green);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  width: 6rem;
+  margin-top: 10px;
+  height: 40px;
+}
