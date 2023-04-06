@@ -17,20 +17,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(31,157,72);
-  background: linear-gradient(90deg, rgba(31,157,72,1) 0%, rgba(49,121,73,1) 100%);
-  box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
--webkit-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
--moz-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+  background: rgb(31, 157, 72);
+  background: linear-gradient(90deg, rgba(31, 157, 72, 1) 0%, rgba(49, 121, 73, 1) 100%);
+  box-shadow: 6px 10px 10px -11px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 6px 10px 10px -11px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 6px 10px 10px -11px rgba(0, 0, 0, 0.69);
 }
 
-#marginContainer{
+#marginContainer {
   padding: 129px 0;
 }
 
 #kotakContainer {
   width: 100%;
-  height:fit-content;
+  height: fit-content;
   border-radius: 25px;
   background-color: #fff;
 }
@@ -59,18 +59,18 @@
 .inputNama > button {
   padding: 10px 20px;
   border-radius: 15px;
-  background: rgb(31,157,72);
-  background: linear-gradient(90deg, rgba(31,157,72,1) 0%, rgba(49,121,73,1) 100%);
-  box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
--webkit-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
--moz-box-shadow: 6px 10px 10px -11px rgba(0,0,0,0.69);
+  background: rgb(31, 157, 72);
+  background: linear-gradient(90deg, rgba(31, 157, 72, 1) 0%, rgba(49, 121, 73, 1) 100%);
+  box-shadow: 6px 10px 10px -11px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 6px 10px 10px -11px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 6px 10px 10px -11px rgba(0, 0, 0, 0.69);
   color: var(--white);
   border: none;
   margin-top: 1rem;
 }
 
 .inputNama > button:hover {
-  background-color:#198e4c;
+  background-color: #198e4c;
   color: var(--white);
 }
 
@@ -79,7 +79,7 @@ th {
   font-weight: 500;
 }
 
-td > button{
+td > button {
   background-color: var(--green);
   border-radius: 20px;
   border: none;
