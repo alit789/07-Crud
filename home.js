@@ -28,10 +28,11 @@ function tambahNama() {
 }
 
 function hapusAllBaris() {
+  const idx = 1;
   var tableDelete = document.getElementById("namaTable");
   var rowLen = tableDelete.rows.length;
-  for (let i = 1; i < rowLen; i++) {
-    tableDelete.deleteRow(i);
+  for (let i = 0; i < rowLen; i++) {
+    tableDelete.deleteRow(idx);
   }
 }
 
